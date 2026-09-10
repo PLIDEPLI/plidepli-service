@@ -138,7 +138,7 @@ function SignupForm() {
       {status === 'error' && (
         <p className="form__error">
           {FORMSPREE_ID
-            ? 'Something went wrong. Please email us directly at support@plidepli.com.'
+            ? 'Something went wrong. Please email us directly at lightfolding1@gmail.com.'
             : 'Signup is not wired up yet.'}
         </p>
       )}
@@ -170,13 +170,13 @@ function App() {
         {/* ---------- hero ---------- */}
         <section className="hero">
           <div className="container">
-            <span className="hero__eyebrow">Wireless internet access · United States</span>
+            <span className="hero__eyebrow">Wireless internet access · California</span>
             <h1 className="hero__title">
               Internet for everywhere <em>the cables skip.</em>
             </h1>
             <p className="hero__sub">
               PLIDEPLI provides high-speed wireless internet access to homes,
-              RVs, and remote locations across the United States. One
+              RVs, and remote locations across California. One
               subscription. One antenna. Reliable Wi-Fi everywhere on your
               property.
             </p>
@@ -190,8 +190,8 @@ function App() {
             </div>
             <div className="hero__stats">
               <div className="hero__stat">
-                <div className="num">50</div>
-                <div className="lbl">states served</div>
+                <div className="num">Statewide</div>
+                <div className="lbl">across California</div>
               </div>
               <div className="hero__stat">
                 <div className="num">200 Mbps</div>
@@ -304,7 +304,7 @@ function App() {
           <div className="container coverage">
             <div>
               <span className="section__label">Coverage</span>
-              <h2 className="section__title">All 50 states, rural first.</h2>
+              <h2 className="section__title">Statewide, rural first.</h2>
               <p className="section__lede">
                 A PLIDEPLI connection works wherever there's a cellular signal
                 to work with — which is why we reach the places cable and fiber
@@ -312,7 +312,7 @@ function App() {
               </p>
               <div className="coverage__list">
                 <div className="coverage__item">
-                  <strong>Nationwide</strong> — all 50 states
+                  <strong>Statewide</strong> — all of California
                 </div>
                 <div className="coverage__item">
                   <strong>Rural &amp; remote</strong> — underserved areas
@@ -331,7 +331,7 @@ function App() {
               <span className="pin" style={{ left: '66%', top: '32%' }} />
               <span className="pin" style={{ left: '72%', top: '62%' }} />
               <span className="pin" style={{ left: '40%', top: '70%' }} />
-              <span className="label">Coverage across the contiguous U.S., Alaska, and Hawaii</span>
+              <span className="label">Coverage across the state of California</span>
             </div>
           </div>
         </section>
@@ -385,7 +385,7 @@ function App() {
                 <div>
                   <span className="lbl">Email</span>
                   <br />
-                  <a href="mailto:support@plidepli.com">support@plidepli.com</a>
+                  <a href="mailto:lightfolding1@gmail.com">lightfolding1@gmail.com</a>
                 </div>
                 <div>
                   <span className="lbl">Hours</span>
@@ -405,14 +405,14 @@ function App() {
             <Wordmark />
             <p>
               PLIDEPLI provides wireless internet access services to homes, RVs,
-              and remote locations across the United States.
+              and remote locations across California.
             </p>
           </div>
           <div className="footer__meta">
             <div>
-              <a href="mailto:support@plidepli.com">support@plidepli.com</a>
+              <a href="mailto:lightfolding1@gmail.com">lightfolding1@gmail.com</a>
             </div>
-            <div>Wireless internet access · United States</div>
+            <div>Wireless internet access · California</div>
             <div>&copy; {new Date().getFullYear()} PLIDEPLI</div>
           </div>
         </div>
