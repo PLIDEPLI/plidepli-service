@@ -324,6 +324,10 @@ function App() {
                   <strong>RVs &amp; campsites</strong> — fixed and seasonal sites
                 </div>
               </div>
+              <p className="coverage__soon">
+                More regions coming soon — join the waitlist above to be first
+                when we expand.
+              </p>
             </div>
             <div className="coverage__map" aria-label="Coverage area illustration">
               <span className="pin" style={{ left: '28%', top: '38%' }} />

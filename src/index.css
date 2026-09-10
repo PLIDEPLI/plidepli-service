@@ -437,6 +437,13 @@ textarea {
   font-weight: 600;
 }
 
+.coverage__soon {
+  margin-top: 22px;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  color: var(--accent);
+}
+
 /* ---------- plans ---------- */
 .plans {
   display: grid;
