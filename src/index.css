@@ -325,6 +325,15 @@ textarea {
   padding: 34px;
 }
 
+.service__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
 .service__card h3 {
   font-size: 1.2rem;
   font-weight: 600;

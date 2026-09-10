@@ -3,6 +3,7 @@ import { useState, type FormEvent } from 'react'
 type FormStatus = 'idle' | 'submitting' | 'done' | 'error'
 
 const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID as string | undefined
+const BASE = import.meta.env.BASE_URL
 
 function WifiMark() {
   return (
@@ -251,6 +252,12 @@ function App() {
               </div>
             </div>
             <div className="service__card">
+              <img
+                className="service__img"
+                src={`${BASE}hardware.jpg`}
+                alt="PLIDEPLI fixed wireless antenna"
+                loading="lazy"
+              />
               <h3>How it's delivered</h3>
               <p>
                 A compact fixed-wireless antenna is installed at your location
