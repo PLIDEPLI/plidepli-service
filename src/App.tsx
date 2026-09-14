@@ -31,7 +31,7 @@ function Wordmark() {
       <span className="wordmark__mark">
         <WifiMark />
       </span>
-      PLIDEPLI
+      Plidépli
     </span>
   )
 }
@@ -152,7 +152,7 @@ function App() {
     <>
       <header className="header">
         <div className="container header__inner">
-          <a href="#top" aria-label="PLIDEPLI home">
+          <a href="#top" aria-label="Plidépli home">
             <Wordmark />
           </a>
           <nav className="nav" aria-label="Primary">
@@ -176,7 +176,7 @@ function App() {
               Internet for everywhere <em>the cables skip.</em>
             </h1>
             <p className="hero__sub">
-              PLIDEPLI provides high-speed wireless internet access to homes,
+              Plidépli provides high-speed wireless internet access to homes,
               RVs, and remote locations across California. One
               subscription. One antenna. Reliable Wi-Fi everywhere on your
               property.
@@ -211,9 +211,9 @@ function App() {
           <div className="container service">
             <div>
               <span className="section__label">The service</span>
-              <h2 className="section__title">What PLIDEPLI actually is.</h2>
+              <h2 className="section__title">What Plidépli actually is.</h2>
               <p className="section__lede">
-                PLIDEPLI is a wireless internet access service. We deliver
+                Plidépli is a wireless internet access service. We deliver
                 broadband over existing cellular networks to a fixed antenna at
                 your home or site, then turn it into a private Wi-Fi network for
                 your whole property. You subscribe to internet access — we
@@ -255,7 +255,7 @@ function App() {
               <img
                 className="service__img"
                 src={`${BASE}hardware.jpg`}
-                alt="PLIDEPLI fixed wireless antenna"
+                alt="Plidépli fixed wireless antenna"
                 loading="lazy"
               />
               <h3>How it's delivered</h3>
@@ -266,7 +266,7 @@ function App() {
                 network — no buried cable, no technician visit, no construction.
               </p>
               <p className="note">
-                Fixed wireless · cellular backhaul · managed by PLIDEPLI
+                Fixed wireless · cellular backhaul · managed by Plidépli
               </p>
             </div>
           </div>
@@ -282,7 +282,7 @@ function App() {
                 <span className="step__num">01</span>
                 <h3>Order online</h3>
                 <p>
-                  Pick a plan and tell us your address. We ship a PLIDEPLI
+                  Pick a plan and tell us your address. We ship a Plidépli
                   antenna to your door.
                 </p>
               </div>
@@ -313,7 +313,7 @@ function App() {
               <span className="section__label">Coverage</span>
               <h2 className="section__title">Statewide, rural first.</h2>
               <p className="section__lede">
-                A PLIDEPLI connection works wherever there's a cellular signal
+                A Plidépli connection works wherever there's a cellular signal
                 to work with — which is why we reach the places cable and fiber
                 don't.
               </p>
@@ -415,7 +415,7 @@ function App() {
           <div className="footer__brand">
             <Wordmark />
             <p>
-              PLIDEPLI provides wireless internet access services to homes, RVs,
+              Plidépli provides wireless internet access services to homes, RVs,
               and remote locations across California.
             </p>
           </div>
@@ -424,7 +424,7 @@ function App() {
               <a href="mailto:lightfolding1@gmail.com">lightfolding1@gmail.com</a>
             </div>
             <div>Wireless internet access · California</div>
-            <div>&copy; {new Date().getFullYear()} PLIDEPLI</div>
+            <div>&copy; {new Date().getFullYear()} Plidépli</div>
           </div>
         </div>
       </footer>
